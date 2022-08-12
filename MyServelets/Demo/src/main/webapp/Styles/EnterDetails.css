@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  --main-bg-color: brown;
+}
+* {
+  box-sizing: border-box;
+  
+}
+
+.navigation{
+    display: flex;
+    box-shadow: 3px 4px 6px 1px rgb(0 0 0 / 10%);
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+}
+
+ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+li{
+    padding: 10px;
+}
+.logo{
+    letter-spacing: 6px;
+    font-weight: 600;
+  padding: 8px 16px;
+  border: 2px solid rgb(255, 105, 5);
+  font-size: 24px;
+  border-radius: 4px;
+}
+.VMS-logo{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-items{
+    text-decoration: none;
+    color: black;
+}
+.nav-items:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.nav-login{
+    text-decoration: none;
+    color: white;
+}
+.nav-login:hover{
+    text-decoration: underline;
+}
+.login-container{
+    background-color: black;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+
+
+.form-head{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 32px;
+
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+}
+.details-container{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    width: 40%;
+    border: 1px solid orangered;
+}
+.text-container{
+    padding-top: 24px;
+    font-size: 20px;
+    color: rgb(26, 26, 26);
+}
+.info-txt{
+    padding-top: 16px;
+}
+.Details{
+    display: block;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 6vh;
+    width: 50vh;
+    font-size: 16px;  
+}
+
+.Details:focus{
+    outline: none !important;
+    border: 1px solid orangered;
+}
+
+.submit-btn-container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.submit-btn{
+    display: block;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 6vh;
+    width: 50vh;
+    font-size: 16px; 
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
